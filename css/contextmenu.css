@@ -1,0 +1,13 @@
+body {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+}
+
+.center {
+    width: 1200px;
+    height: 726px;
+    background-color: rgba(247, 74, 74, 0.25);
+}
