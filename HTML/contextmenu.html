@@ -5,16 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> </title>
+    <link rel="stylesheet" href="/css/contextmenu.css">
     <script src="/JS/contextmenu.js"></script>
 </head>
-<body>
+<body> <!--onkeypress="message4()"-->
     <!--<p oncontextmenu="message()">Right Click Pls!</p>
     <a href="#" oncontextmenu="message1()">Click Me Also</a>-->
 
     <!--<p onmouseout="message()">Focus then Move out to me Pls!</p>
     <a href="#" onmouseout="message1()">Focus then Move out to me</a>-->
     
-    <label for="sample">Type any letter in the Input Box:</label>
-    <input type="text" onkeydown="message2()">
+    <!--<label for="sample">Type any letter in the Input Box:</label>
+    <input type="text" onkeydown="message2()">-->
+
+    <!--<label for="sample">Type any letter in the Input Box:</label>
+    <input type="text" onkeyup="message3()">-->
+
+    <!--<label for="sample">Type any letter in the Input Box:</label>
+    <input type="text" onkeyup="message3()">-->
+
+    <!--<label for="sample">Type any letter in the Input Box:</label>
+    <input id="this" type="text" onfocus="colorChange()">-->
+
+    <!--<img id="off" src="/img/Off.jpg" alt="off" onclick="lightsOn()">
+    <img id="on"  src="/img/On.jpg" alt="on" onclick="lightsOff()">-->
+
+    <!--<label for="sample">Type any letter in the Input Box:</label>
+    <input id="this" type="text" onblur="colorChange()">-->
+
+    <fieldset>
+        <form action="#" onsubmit="submitMessage()">
+        <caption>Information Form</caption>
+        <br>
+        <label for="name">Enter Fullname:</label>
+        <input type="text" name="fn" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    </fieldset>
 </body>
 </html>
